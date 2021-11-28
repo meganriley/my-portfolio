@@ -1,5 +1,6 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import { Link } from 'react-router-dom';
 
 export default function Navbar() {
     return (
@@ -20,9 +21,10 @@ export default function Navbar() {
               <a href="#testimonials" className="mr-5 hover:text-white">
                 Testimonials
               </a>
-              <a href="#blog" className="mr-5 hover:text-white">
+              <Link to="/blog">Blog</Link>
+              {/* <a href="#blog" className="mr-5 hover:text-white">
                 Blog
-              </a>
+              </a> */}
             </nav>
             <a
               href="#contact"

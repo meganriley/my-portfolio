@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Amazon Clone",
+    subtitle: "React",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "An e-commerce site and Amazon clone using React Props and React Context API. Items on the site are actual items from my real Amazon Wishlist!",
+    image: "./amazon-clone.gif",
+    link: "https://meganriley.github.io/e-shop/",
   },
   {
     title: "React Tracks",

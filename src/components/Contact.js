@@ -25,7 +25,7 @@ export default function Contact() {
     }
     return (
         <section id="contact" className="relative">
-          <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
+          <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap: nowrap">
             <div className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
               <iframe
                 width="100%"
@@ -39,7 +39,7 @@ export default function Contact() {
                 src="https://www.google.com/maps/embed/v1/place?q=Chicago,+IL&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
               />
               <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-                <div className="lg:w-1/2 px-6">
+                <div className="lg:w-1/2 px-20">
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                     LOCATION
                   </h2>
@@ -57,11 +57,11 @@ export default function Contact() {
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                     LINKEDIN
                   </h2>
-                  <p className="leading-relaxed">linkedin.com/in/meganriley1</p>
+                  <p className="leading-relaxed"><a href="https://linkedin.com/in/meganriley1" target="_blank" rel="noopener noreferrer">linkedin.com/in/meganriley1</a></p>
                   <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                     GITHUB
                   </h2>
-                  <p className="leading-relaxed">github.com/meganriley</p>
+                  <p className="leading-relaxed"><a href="https://github.com/meganriley" target="_blank" rel="noopener noreferrer">github.com/meganriley</a></p>
                 </div>
               </div>
             </div>
